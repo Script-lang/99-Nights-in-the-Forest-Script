@@ -14,7 +14,7 @@ local camera = workspace.CurrentCamera
 local Window = Rayfield:CreateWindow({
     Name = "99 Nights",
     LoadingTitle = "99 Nights Script",
-    LoadingSubtitle = "by Raygull",
+    LoadingSubtitle = "by Raydel",
     ConfigurationSaving = {
         Enabled = true,
         FolderName = nil,
@@ -42,7 +42,7 @@ local AimbotTargets = {"Alpha Wolf", "Wolf", "Crossbow Cultist", "Cultist", "Bun
 local espEnabled = false
 local npcESPEnabled = false
 local ignoreDistanceFrom = Vector3.new(0, 0, 0)
-local minDistance = 50
+local minDistance = 100
 local AutoTreeFarmEnabled = false
 
 -- Click simulation
@@ -54,7 +54,7 @@ end
 
 -- Aimbot FOV Circle
 local AimbotEnabled = false
-local FOVRadius = 100
+local FOVRadius = 200
 local FOVCircle = Drawing.new("Circle")
 FOVCircle.Color = Color3.fromRGB(128, 255, 0)
 FOVCircle.Thickness = 1
